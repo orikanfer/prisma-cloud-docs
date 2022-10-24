@@ -64,7 +64,7 @@ The type of Defender you deploy depends on the resource you’re securing.
 * *Container Defender* -- Secures hosts (Linux or Windows) that run containers.
 These types of hosts have a container runtime installed, such as Docker Engine or CRI-O.
 Container Defender protects both the underlying host and any containers it runs, and the license (7 credits) includes coverage for both.
-A container host consumes 7 credits whether it runs one container or a hundred containers.
+A container host consumes 7 credits regardless of the number of containers it protects.
 
 * *Container Defender - App Embedded* -- Secures containers which are run by a managed service, where the service provider maintains all infrastructure required to run the container, including the underlying host and container runtime.
 For this type of deployment, a Container App Embedded Defender is embedded into each container to be secured.
